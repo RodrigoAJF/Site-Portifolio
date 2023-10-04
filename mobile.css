@@ -1,0 +1,145 @@
+@media only screen and (max-device-width: 450px) {
+  button {
+    height: 90px;
+    font-size: 26px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  li {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .section-portifolio {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ability-card-subtitle {
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .content-container {
+    width: 95vw;
+    max-width: 95vw;
+  }
+
+  .barra-navegacao {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .titulo-navegacao {
+    font-size: 36px;
+  }
+
+  .links-navegacao {
+    display: none;
+  }
+
+  .section-hero {
+    height: 55vh;
+    padding-bottom: 48px;
+  }
+
+  .hero-info-title {
+    font-size: 56px;
+    margin-top: 36px;
+    line-height: 60px;
+  }
+
+  .hero-info-subtitle {
+    font-size: 36px;
+    line-height: 30px;
+    max-width: 75%;
+  }
+
+  .hero-info-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .hero-info-image {
+    height: 100%;
+    width: 390px;
+  }
+
+  .ability-card {
+    display: flex;
+    align-items: center;
+    height: auto;
+    row-gap: 36px;
+    padding-top: 16px;
+    margin-top: 50px;
+    width: 50vw;
+    flex-direction: column;
+  }
+
+  .ability-card-container {
+    row-gap: 56px;
+    grid-template-columns: auto auto auto;
+    margin-top: 44px;
+    width: 100%;
+  }
+
+  .hero-info {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+    margin-top: 100px;
+  }
+
+  .hero-info-icons-container {
+    display: flex;
+    flex-direction: row;
+    widows: 50%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 60px;
+    gap: 80px;
+  }
+
+  .hero-info-icons-img {
+    width: 80px;
+    height: 75px;
+  }
+
+  .ability-card-container {
+    row-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 12px;
+  }
+
+  .section-portifolio-grid {
+    row-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 24px;
+  }
+
+  .section-contact-item {
+    font-size: 36px;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+}

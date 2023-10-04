@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+      <title>Rodrigo Jácome</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="mobile.css" />
+      <script src="index.js"></script>
+    </head>
+  </head>
+  <body>
+    <div class="root-container">
+      <div class="content-container">
+        <section class="section-hero">
+          <div class="barra-navegacao">
+            <h2 class="titulo-navegacao">Rodrigo Jácome</h2>
+            <div>
+              <a
+                onclick="onClickScollTo('section-abilities')"
+                class="links-navegacao"
+              >
+                Habilidades</a
+              >
+              <a
+                class="links-navegacao"
+                onclick="onClickScollTo('section-portifolio')"
+                >Portifólio</a
+              >
+              <a onclick="onclickExperiencias()" class="links-navegacao"
+                >Experiências</a
+              >
+            </div>
+            <button onclick="onClickScollTo('section-contact')">CONTATO</button>
+          </div>
+          <div class="hero-info">
+            <div class="hero-info-text-container">
+              <h2 class="hero-info-title">
+                Olá muito prazer ! <br />
+                Me chamo Rodrigo Jácome
+              </h2>
+              <p class="hero-info-subtitle">
+                Tenho o sonho de ser um Programador, com foco em desenvolvimento
+                web e mobile e construir minha vida com essa profissão!
+              </p>
+              <button onclick="onClickScollTo('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
+              <div class="hero-info-icons-container">
+                <a onclick="onClickLink('https://github.com/RodrigoAJF')">
+                  <img
+                    alt="GitHub"
+                    class="hero-info-icons-img"
+                    src="icons/icone-GITHUB.png"
+                  />
+                </a>
+                <a
+                  onclick="onClickLink('https://www.instagram.com/rod.ajf/?hl=pt-br')"
+                >
+                  <img
+                    alt="Instagram"
+                    class="hero-info-icons-img"
+                    src="icons/icone-INSTAGRAM.PNG"
+                  />
+                </a>
+                <a
+                  onclick="onClickLink('https://www.linkedin.com/in/rodrigo-j%C3%A1come-7a7364248/')"
+                >
+                  <img
+                    alt="Linkedin"
+                    class="hero-info-icons-img"
+                    src="icons/icone-LINKEDIN.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <img
+                class="hero-info-image"
+                src="perfil.png"
+                alt="Perfil Rodrigo Jácome"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="section-abilities" id="section-abilities">
+          <h3>Habilidades</h3>
+          <h3 class="vermelho">Que domino.</h3>
+          <div class="ability-card-container">
+            <div class="ability-card">
+              <div class="ability-card-icon-container">
+                <img
+                  class="ability-card-icon-image"
+                  src="icons/icone-HabilidadesGerais.png"
+                  alt="Habilidades Gerais"
+                />
+              </div>
+              <h4>Habilidades Gerais</h4>
+              <p class="ability-card-subtitle">
+                tecnologias que utilizo no dia-a-dia na programação.
+              </p>
+              <ul class="ability-list">
+                <li>Lógica de Programação</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>JavaScript</li>
+                <li>VScode</li>
+                <li>Inglês avançado</li>
+                <li>Boa comunicação</li>
+                <li>Rápida aprendizagem</li>
+              </ul>
+            </div>
+            <div class="ability-card">
+              <div class="ability-card-icon-container">
+                <img
+                  class="ability-card-icon-image"
+                  src="icons/icone-Front-End.png"
+                  alt="Fron-End"
+                />
+              </div>
+              <h4>Front-End</h4>
+              <p class="ability-card-subtitle">
+                Ferramentas utilizadas para criação de sistema web.
+              </p>
+              <ul class="ability-list">
+                <li>Lógica de Programação</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <div class="ability-card">
+              <div class="ability-card-icon-container">
+                <img
+                  class="ability-card-icon-image"
+                  src="icons/icone-Back-End.png"
+                  alt="Back-End"
+                />
+              </div>
+              <h4>Back-End</h4>
+              <p class="ability-card-subtitle">
+                Controle de banco de dados e aplicações na nuvem.
+              </p>
+              <ul class="ability-list">
+                <li>Lógica de Programação</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section-portifolio" id="section-portifolio">
+          <h3>Portifólio</h3>
+          <h3 class="vermelho">de projetos.</h3>
+          <div class="section-portifolio-grid">
+            <div class="section-portifolio-card">
+              <ul class="ability-list">
+                <h4>ESTOU EM BUSCA DA 1° OPORTUNIDADE.</h4>
+              </ul>
+            </div>
+            <div class="section-portifolio-card">
+              <ul class="ability-list">
+                <h4>ESTOU EM BUSCA DA 1° OPORTUNIDADE.</h4>
+              </ul>
+            </div>
+            <div class="section-portifolio-card">
+              <ul class="ability-list">
+                <h4>ESTOU EM BUSCS DA 1° OPORTUNIDADE.</h4>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section-contact" id="section-contact">
+          <h3>Entre em</h3>
+          <h3 class="vermelho">contato.</h3>
+          <p class="hero-info-subtitle">Estou em busca de uma oportunidade.</p>
+          <div class="section-contact-item">
+            <img
+              src="icons/icone-EMAIL.png"
+              alt="E-mail icon"
+              class="section-contact-item-icon"
+            />
+            <a href="maalito:rodrigoalvesjacomefilho@gmail.com"
+              >rodrigoalvesjacomefilho@gmail.com</a
+            >
+          </div>
+          <div class="section-contact-item">
+            <img
+              src="icons/icone-Telefone.png"
+              alt="Telefone icon"
+              class="section-contact-item-icon"
+            />
+            <a href="tel:(61) 984280213">(61) 98428-0213</a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h2 class="titulo-navegacao">Rodrigo Jácome</h2>
+        <div class="footer-social-icons-container">
+          <a onclick="onClickLink('https://github.com/RodrigoAJF')">
+            <img
+              alt="GitHub"
+              class="hero-info-icons-img"
+              src="icons/icone-GITHUB.png"
+            />
+          </a>
+          <a
+            onclick="onClickLink('https://www.instagram.com/rod.ajf/?hl=pt-br')"
+          >
+            <img
+              alt="Instagram"
+              class="hero-info-icons-img"
+              src="icons/icone-INSTAGRAM.PNG"
+            />
+          </a>
+          <a
+            onclick="onClickLink('https://www.linkedin.com/in/rodrigo-j%C3%A1come-7a7364248/')"
+          >
+            <img
+              alt="Linkedin"
+              class="hero-info-icons-img"
+              src="icons/icone-LINKEDIN.png"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
